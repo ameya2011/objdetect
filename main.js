@@ -7,7 +7,7 @@ img=loadImage("dog_cat.jpg");
 }
 
 function setup(){
-canvas=createCanvas(700, 400);
+canvas=createCanvas(400, 400);
 canvas.center();
 video=createCapture(VIDEO);
 video.hide();
@@ -29,7 +29,7 @@ objects= results;
 }
 
 function draw(){
-image(video, 0, 0, 700, 400);
+image(video, 0, 0, 400, 400);
 
 
 if(status != "")
